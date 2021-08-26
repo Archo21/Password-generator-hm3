@@ -48,7 +48,7 @@ function generatePassword(passwordOptions) {
     eligibleCharacters += numbers
     var number = getRandomCharacter(numbers); 
     finalPassword += numbers
-    console.log(number);
+    console.log(numbers);
   }
 
   if  (passwordOptions.hasUpperCase === true){
